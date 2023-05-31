@@ -1,0 +1,1471 @@
+<chapter xml:id="chapter-library-of-functions">
+  <title>Library of Functions</title>
+  <section xml:id="section-algebraic-functions">
+    <title>Algebraic Functions</title>
+    <figure xml:id="figure-library1">
+      <caption><m>f(x) = 3</m></caption>
+      <image xml:id="figure02" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+          
+          real f1(real x) {return 3;}
+
+          draw(graph(f1,-4,4));
+          draw((-4,4)--(4,4),invisible);
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = 3
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A constant function.
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR^2</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\{3\}</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Even
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded above and below
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+
+    <figure xml:id="figure-library2">
+      <caption><m>f(x) = x-1</m></caption>
+      <image xml:id="figure03" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return x-1;}
+
+          draw(graph(f1,-4,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = x - 1
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A linear function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library3">
+      <caption><m>f(x) = \frac{x^2}{2}</m></caption>
+      <image xml:id="figure04" width="80%">
+        <asymptote>
+          size(10cm);
+          
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return x^2/2;}
+
+          draw(graph(f1,-3,3));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{x^2}{2} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A quadratic function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[0,\infty) </m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Even
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library4">
+      <caption><m>f(x) = \frac{x^2}{2} - x - \frac{1}{2}</m></caption>
+      <image xml:id="figure05" width="80%">
+        <asymptote>
+          size(10cm); 
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return (x^2-2x-1)/2;}
+
+          draw(graph(f1,-2,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{x^2}{2} - x - \frac{1}{2} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A quadratic function 
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[-1,\infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library5">
+      <caption><m>f(x) = \frac{x^3}{4}</m></caption>
+      <image xml:id="figure06" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+          size(10cm);
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return x^3/4;}
+
+          draw(graph(f1,-1.7,1.7));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{x^3}{3} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A cubic function 
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library6">
+      <caption><m>f(x) = x^3 - x^2 - x + 1</m></caption>
+      <image xml:id="figure07" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return (x^3-x^2-x+1)/2;}
+
+          draw(graph(f1,-1.3,2));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = x^3 - x^2 - x + 1 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A cubic function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library7">
+      <caption><m>f(x) = \frac{x^4}{8}</m></caption>
+      <image xml:id="figure08" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return x^4/8;}
+
+          draw(graph(f1,-2,2));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{x^4}{8} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A quartic function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[0,\infty) </m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Even
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library8">
+      <caption><m>f(x) = x^4 + x^2 - x^2 - x - 1</m></caption>
+      <image xml:id="figure09" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return x^4+x^3-x^2-x-1;}
+
+          draw(graph(f1,-1.6,1.2));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = x^4 + x^3 - x^2 - x - 1 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A quartic function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[-1.62,\infty)J</m> (approximate value)
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library9">
+      <caption><m>f(x) = \sqrt{x}</m></caption>
+      <image xml:id="figure10" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return sqrt(x);}
+
+          draw(graph(f1,0,5));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \sqrt{x} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+        </li>
+          A square root function.
+        <li>
+        <title>Domain</title>
+          <m>[0,\infty)</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[0, \infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library10">
+      <caption><m>f(x) = \frac{1}{3x}</m></caption>
+      <image xml:id="figure11" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return (1/x)/3;}
+
+          draw(graph(f1,-4,-0.1));
+          draw(graph(f1,0.1,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{1}{3x} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+        </li>
+          A rational function; a reciprocal function
+        <li>
+        <title>Domain</title>
+          <m>(-\infty, 0) \cup (0, \infty)</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>(-\infty, 0) \cup (0, \infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          Decreasing (except over the asymptote jump)
+        </li>
+        <li>  
+        <title>Horizontal Asymptote</title>
+          <m>y = 0</m>
+        </li>
+        <li>  
+        <title>Vertical Asymptote</title>
+          <m>x = 0 </m>
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library11">
+      <caption><m>f(x) = \frac{1}{25x^2}</m></caption>
+      <image xml:id="figure12" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+          
+          real f1(real x) {return (1/x^2)/25;}
+
+          draw(graph(f1,-4,-0.1));
+          draw(graph(f1,0.1,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{1}{25x^2} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A rational function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>(-\infty, 0) \cup (0, \infty)</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>(-\infty, 0) \cup (0, \infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          Decreasing (except over the asymptote jump)
+        </li>
+        <li>  
+        <title>Horizontal Asymptote</title>
+          <m>y = 0</m>
+        </li>
+        <li>  
+        <title>Vertical Asymptote</title>
+          <m>x = 0 </m>
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library12">
+      <caption><m>f(x) = \frac{4x^2}{x^2 + 2}</m></caption>
+      <image xml:id="figure13" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+          
+          real f1(real x) {return (1/x^2)/25;}
+
+          draw(graph(f1,-4,-0.1));
+          draw(graph(f1,0.1,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{4x^2}{x^2 + 2}
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A rational function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[0,4)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Even
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded above and below
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+        <li>  
+        <title>Horizontal Asymptote</title>
+          <m>y = 4</m>
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library13">
+      <caption><m>f(x) = \frac{x^2}{x^2-4}</m></caption>
+      <image xml:id="figure14" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return x^2/(x^2-4);}
+
+          draw(graph(f1,-4,-2.3));
+          draw(graph(f1,-1.7,1.7));
+          draw(graph(f1,2.3,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{x^2}{x^2-4} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A rational function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>(-\infty, -2) \cup (-2,2) \cup (2, \infty)</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>(-infty, 0] \cup [1,\infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Even
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+        <li>  
+        <title>Horizontal Asymptote</title>
+          <m>y = 1</m>
+        </li>
+        <li>  
+        <title>Horizontal Asymptote</title>
+          <m>2 = -2</m> and <m>x = 2</m> 
+        </li>
+      </dl>
+    </p>
+  </section>
+  <section xml:id="section-library-transcendental">
+    <title>Transcendental Functions</title>
+    <figure xml:id="figure-library14">
+      <caption><m>f(x) = \frac{e^x}{3}</m></caption>
+      <image xml:id="figure15" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return exp(x)/3;}
+
+          draw(graph(f1,-4,2));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \frac{e^x}{3} 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          An exponential function.
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>(0, \infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+        <li>  
+        <title>Horizontal Asymptote</title>
+          <m>y = 0</m>
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library15">
+      <caption><m>f(x) = 3e^{-x^2} </m></caption>
+      <image xml:id="figure16" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return 3exp(-x^2);}
+
+          draw(graph(f1,-4,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = 3e^{-x^2}  
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          An exponential function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>(0, \infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Decreasing
+        </li>
+        <li>  
+        <title>Horizontal Asymptote</title>
+          <m>y = 0</m>
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library16">
+      <caption><m>f(x) = \ln x</m></caption>
+      <image xml:id="figure17" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return log(x);}
+
+          draw(graph(f1,0.2,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \ln x 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A logarithmic funciton
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>(0, \infty)</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+        <li>  
+        <title>Vertical Asymptote</title>
+          <m>x = 0</m>
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library17">
+      <caption><m>f(x) = \sin x </m></caption>
+      <image xml:id="figure18" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return 2sin(x);}
+
+          draw(graph(f1,-4,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \sin x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A trigonometric function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[-1,1] </m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded above and below
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library18">
+      <caption><m>f(x) = \cos x</m></caption>
+      <image xml:id="figure19" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return 2cos(x) ;}
+
+          draw(graph(f1,-4,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \cos x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A trigonometric function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[-1,1] </m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Even
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded above and below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Non
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library19">
+      <caption><m>f(x) = \tan x</m></caption>
+      <image xml:id="figure20" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return tan(x)/5 ;}
+
+          draw(graph(f1,-1.5,1.5));
+          draw(graph(f1,-3,-1.65));
+          draw(graph(f1,1.65,3));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \tan x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A trigonometric function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>, except odd multiple of <m>\frac{\pi}{2}</m>. 
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\RR </m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library20">
+      <caption><m>f(x) = \cosh x</m></caption>
+      <image xml:id="figure21" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return cosh(x)/4 ;}
+
+          draw(graph(f1,-2.5,2.5));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \cosh x 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A hyperbolic function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[1,\infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Even
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          None
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library21">
+      <caption><m>f(x) = \sinh x</m></caption>
+      <image xml:id="figure22" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return sinh(x)/8 ;}
+
+          draw(graph(f1,-4,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \sinh x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A hyperbolic function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library22">
+      <caption><m>f(x) = \tanh x</m></caption>
+      <image xml:id="figure23" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return 2tanh(x) ;}
+
+          draw(graph(f1,-4,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \tanh x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          A hyperbolic function 
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>(-1,1)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded above and below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+        <li>  
+        <title>Horizontal Asymptotes</title>
+          <m>y = -1</m> and <m>y = 1</m>
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library23">
+      <caption><m>f(x) = \arcsin x</m></caption>
+      <image xml:id="figure24" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return (asin(x))/2 ;}
+
+          draw(graph(f1,-1,1));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \arcsin x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          An inverse trigonometric function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>[-1,1]</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\left[ \frac{-\pi}{2}, \frac{\pi}{2} \right]</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded above and below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library24">
+      <caption><m>f(x) = \arccos x</m></caption>
+      <image xml:id="figure25" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return (acos(x))/2 ;}
+
+          draw(graph(f1,-1,1));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \arccos x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          An inverse trigonometric function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>[-1,1]</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[0,\pi]</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded above and below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Decreasing
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library25">
+      <caption><m>f(x) = \arctan x</m></caption>
+      <image xml:id="figure26" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return 2atan(x) ;}
+
+          draw(graph(f1,-4,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \arctan x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          An inverse trigonometric function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\left( \frac{\pi}{2}, \frac{\pi}{2} \right)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded abobe and below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+        <li>  
+        <title>Horizontal Asymptote</title>
+          <m>y = \frac{-\pi}{2}</m> and <m>y = \frac{\pi}{2}</m>
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library26">
+      <caption><m>f(x) = \arccosh x</m></caption>
+      <image xml:id="figure27" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return acosh(x) ;}
+
+          draw(graph(f1,1,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \arccosh x 
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          An inverse hyperbolic function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>[1,\infty)</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>[0,\infty)</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          None
+        </li>
+        <li>
+        <title>Boundedness</title>
+          Bounded below
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library27">
+      <caption><m>f(x) = \arcsinh x</m></caption>
+      <image xml:id="figure28" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return asinh(x) ;}
+
+          draw(graph(f1,-4,4));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \arcsinh x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          An inverse hyperbolic function 
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+      </dl>
+    </p>
+    <figure xml:id="figure-library28">
+      <caption><m>f(x) = \arctanh x</m></caption>
+      <image xml:id="figure29" width="80%">
+        <asymptote>
+          size(10cm);
+
+          import graph;
+
+          xaxis("$x$");
+          yaxis("$y$");
+
+          real f1(real x) {return (atanh(x))/3 ;}
+
+          draw(graph(f1,-0.9,0.9));
+        </asymptote>
+      </image>
+    </figure>
+    <p>
+      <dl>
+        <li> 
+        <title>Function</title>
+        <m>
+          f(x) = \arctanh x
+        </m></li>
+        <li>
+        <title>Name/Type</title>
+          An inverse hyperbolic function
+        </li>
+        <li>
+        <title>Domain</title>
+          <m>(-1,1)</m>
+        </li>
+        <li>
+        <title>Range</title>
+          <m>\RR</m>
+        </li>
+        <li>
+        <title>Symmetry</title>
+          Odd
+        </li>
+        <li>
+        <title>Boundedness</title>
+          None
+        </li>
+        <li>  
+        <title>Direction</title>
+          Increasing
+        </li>
+        <li>  
+        <title>Vertical Asymptotes</title>
+          <m>x = 1</m> and <m>x = -1</m>
+        </li>
+      </dl>
+    </p>
+  </section>
+</chapter>

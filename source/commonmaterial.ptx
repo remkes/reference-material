@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+  <docinfo>
+    <xi:include href="./macros.ptx" />  
+  </docinfo>
+  <book>
+    <title>Mathematics Common Reference Material</title>
+    <xi:include href="./frontmatter.ptx" /> 
+    <xi:include href="./academic-honesty.ptx" />
+    <xi:include href="./how-to-write-an-assignment.ptx" />
+    <xi:include href="./notations.ptx" />
+    <xi:include href="./reference.ptx" />
+    <xi:include href="./library-of-functions.ptx" />
+    <backmatter>
+    </backmatter>
+  </book>
+</pretext>
