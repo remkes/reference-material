@@ -17,31 +17,32 @@
     </p>
     <p>
       The main point of this document is that mathematics is not
-      fundamentally different from English or psychology in its
-      expectations of academic honesty: you still have to produce your
-      own work and credit your sources. This sometimes comes as a
-      shock, since many students seem to expect that mathematics
-      is very different. It isn't. The same principles
-      apply. This document gives some specifics of how to apply those
-      principles. 
+      fundamentally different from english, psychology, or any other
+      university course in its expectations of academic honesty: you
+      still have to produce your own work and credit your sources.
+      This sometimes comes as a surprise, since many students seem to
+      expect that mathematics is very different. It isn't. The same
+      principles apply. This document gives some specifics of how to
+      apply those principles. 
     </p>
   </section>
   <section xml:id="section-assignments">
-    <title>Math Assignments</title>
+    <title>Submitted Mathematical Work</title>
     <p>
-      The principle here is simple. When you had in an assignment, it
-      must be your own work: your own thoughts, your own sentences,
-      your own calculations. This is the point of an assignment. We
-      don't set assignments because we need to mark something; we
-      set assignments to encourage you to do the active work of
-      solving mathematical problems, which is nearly the entire point
-      of taking a mathematics course. We want each of you to actually
-      do your assignments, since that's where some of the most
-      important learning happens.
+      This section is about assignment, take-home exams, and any other
+      mathematical work you submit. The principle here is simple. When
+      you work, it must be your own work: your own thoughts, your own
+      sentences, your own calculations. This is the point of an
+      assignment. I don't set assignments because I need to mark
+      something; I set assignments to encourage you to do the active
+      work of solving mathematical problems, which is nearly the
+      entire point of taking a mathematics course. I want each of you
+      to actually do your assignments, since that's where some of the
+      most important learning happens.
     </p>
     <p>
       That said, working in groups on assignments is excellent and
-      highly encouraged. Mathematics works very well in groups, where
+      highly encouraged. Mathematics is well suited to groups, where
       you can remind each other of ideas, correct each other's
       mistakes, and help each through conceptual barriers. Groups are
       great. However, at the end of your group work, you still have to
@@ -70,8 +71,8 @@
         assignments. Often your calculations will be nearly identical
         to your group, and that's to be expected (though you should
         always do your own calculations and understand them, not just
-        copy someone else's calculation). Your sentences that
-        surround your calcualtions, however, should not be the same
+        copy someone else's calculations). Your sentences that
+        surround your calculations, however, should not be the same
         sentences as any other student's. Write up your own work, use
         your own words to explain calculations and answer conceptual
         questions. 
@@ -82,7 +83,7 @@
         is quite simple: just write, "On this assignments, I worked
         with NAME, NAME and NAME". This is appreciated since it gives
         credit for the help your received from your group. It also
-        helps for marking; when assignments are very similar, if we
+        helps for marking; when assignments are very similar, if I
         can see that students worked together, that similarity is
         expected. (Identical assignments are still a problem, as
         discussed above). 
@@ -119,7 +120,7 @@
       <li>
         First and foremost, you have to cite what you use. Any
         websites, videos, calculation tools that you use for an
-        assignment should be cited at the end of the assignment. I
+        assignment should be cited somewhere in your assignment. I
         find this expectation is often surprising to many
         students, but I'm serious. Internet resources are like any
         resources, and for academic writing, we cite our resources. We
@@ -133,7 +134,7 @@
         me the URL. (When you submit a scanned PDF of written work,
         you can use the online text field in Moodle to submit your
         reference, if you wish, so that you don't have to copy our
-        complicated URLs in pen and paper.
+        complicated URLs in pen and paper.)
       </li>
       <li>
         Online calculation tools (Wolfram Alpha, Demos, Symbolab, and
@@ -150,7 +151,7 @@
         that you understand the processes. 
       </li>
       <li>
-        In the above discussion, I am mostly imaginging source without
+        In the above discussion, I am talking about sources without
         in-person interaction, such as online texts, encylopedias,
         video explanations, and calculation tools. The
         internet also has interactive sources: various places where
@@ -158,39 +159,92 @@
         people to your specific questions. Some of these are free and
         some are paid serivces. I want to be very clear
         about my expectation for these kind of sites.
-      <blockquote>
-        It's fine to ask general questions on a math forum or help site.
-        Some like "I need help figuring out how to solve systems of
-        equations" is very reasonable. If you want specific examples
-        to ask about, use the activities in the course and ask people
-        to help you understand the activities. However, please DO NOT
-        post any assignment questions or take-home exam questions to
-        any online math forum or help site. I need to draw a clear
-        line here, so that it is easy for you to understand my
-        expectations. Posting assignment questions or exam questions
-        online is not acceptable. 
+        <blockquote>
+          It's fine to ask general questions on a math forum or help
+          site.  Some like <dq>I need help figuring out how to solve
+          systems of equations</dq> is very reasonable. If you want
+          specific examples to ask about, use the activities in the
+          course and ask people to help you understand the activities.
+          However, please DO NOT post any assignment questions or
+          take-home exam questions to any online math forum or help
+          site. I need to draw a clear line here, so that it is easy
+          for you to understand my expectations. Posting assignment
+          questions or exam questions online is not acceptable. 
       </blockquote>
       </li>
       <li>
         Often when students look online for material from the course,
         they will find similar material which differs in notations,
-        definitions, or solution methods. If you find another way of
-        doing things or use an alternative notation from what we did
-        in class, you need to explain to me what the alternative
-        notation means and/or why the alternative method works. You
-        can't assume that your reader (me or the marker) knows about
-        the alternatie method or notation you've discovered. You 
-        have to be explicit about any new ideas and how they relate to
-        the course material. 
+        definitions, or solution methods. Similarly, you may have
+        previous mathematical experience that uses slightly different
+        notations, definition or method. I have two important
+        instructions for these situations.
+        <blockquote>
+          If you know another way of doing a problem, you need to
+          explain to me, in the assignment, why your method works.
+          Anything that comes from outside the course needs context:
+          you can't just use another method and expect me to
+          understand what you are doing. You need to explain.
+
+          Even if you know a different notation, I insist that you
+          translate your knowledge and practice into the notation I
+          use in the course. You must submit your assignment following
+          the notational conventions I introduces in the videos and
+          the notes. 
+        </blockquote>
       </li>
       <li>
-        As one final specific note, Wikipedia is not an authoratative
-        source for quotationes. It is an immensely useful source and a
+        Two specific internet resources require their own specific
+        nows. First, Wikipedia is not an authoratative source for
+        quotationes. Wikipedia is an immensely useful source and a
         great place to look for reminders and concepts. I frequently
         use it informally to help remember various pieces of
         mathematics. But you can't use it as an authority; you can't
         claim that any definition, notation or method is correct
-        because you read it on Wikipedia. 
+        because you read it on Wikipedia. If you want to do this, look
+        for waht Wikipedia uses as souces and track those down, so
+        that you can find a reasonable citation. 
+      </li>
+      <li>
+        <p>
+        Last, but not least, I need to talk about predictive language
+        models: GPT and its friends on other platforms. Predictive
+        language models can be a pretty fantastic resource, and it is
+        certainly amazing what they can accomplish. I imagine that we
+        are only just starting to understand it implications. So, what
+        are the expectation for using it in mathematics courses? Well,
+        it depends on what you do with it.
+        </p>
+        <p>
+        You could ask a predictive language model to write your
+        assignment text for you. However, recall what I wrote
+        previously: when you submit work, I expect what you submit
+        your own work: your own thoughts, your own sentences.
+        Therefore, in my courses, you are not permitted to have a
+        predictive language model write your assignment text for you.
+        </p>
+        <p>
+        You could ask it to check your calculations for you; some
+        language models are pretty good at math calculations.
+        However, I discourage this usage as well. Above, I encouraged
+        you to use Wolfram Alpha, Symbolab, Desmos and other online
+        calculation tool. If you are going to use a computer for
+        calcuation,  I suggest these. Why not use GPT or another
+        language model? Well, because they are language models: they
+        are designed to mimic language. They don't, fundamentally,
+        have either the goal or the design for accuracy in answers.
+        They'll produce something that looks and sounds like
+        reasonable mathematics, but it might simply be totally wrong.
+        </p> 
+        <p>
+        Lastly, if you do use GPT or another language model in some
+        other way, you do have to cite it. King's has decided, as a
+        policy for all courses, that use of language model text
+        without citation does, in fact, constitute plagiarism. This is
+        a serious academic offence with serious reprocusions. Even if
+        you unsure about the two previous point and do end up trying
+        to use a language model, at the very least give your source. 
+        </p>
       </li>
     </ul>
   </section>
