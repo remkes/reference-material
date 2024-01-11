@@ -446,7 +446,7 @@
       <title>Basic Identities</title>
       <md>
         <mrow>
-          \cosh^2 - \sinh^2 \amp = 1
+          \cosh^2 x - \sinh^2 x \amp = 1
         </mrow>
         <mrow>
           \tanh^2 x \amp = 1 - \sech^2 x
