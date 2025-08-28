@@ -26,22 +26,51 @@
       apply those principles. 
     </p>
   </section>
-  <section xml:id="section-assignments">
-    <title>Submitted Mathematical Work</title>
+  <section xml:id="section-assignments-purpose">
+    <title>The Purpose of Assignments</title>
     <p>
-      This section is about assignment, take-home exams, and any other
-      mathematical work you submit. The principle here is simple. When
-      you work, it must be your own work: your own thoughts, your own
-      sentences, your own calculations. This is the point of an
-      assignment. I don't set assignments because I need to mark
-      something; I set assignments to encourage you to do the active
-      work of solving mathematical problems, which is nearly the
-      entire point of taking a mathematics course. I want each of you
-      to actually do your assignments, since that's where some of the
-      most important learning happens.
+      Most of the expectations in this section is about assignment,
+      take-home exams, and any other mathematical work you submit. The
+      principle here is simple. When you work, it must be your own
+      work: your own thoughts, your own sentences, your own
+      calculations. This is the point of an assignment. I don't set
+      assignments because I need to mark something or I want to see
+      correct answers on pieces of paper; I set assignments to
+      encourage you to do the active work of solving mathematical
+      problems, which is nearly the entire point of taking a
+      mathematics course. I want each of you to actually do your
+      assignments, since that's where some of the most important
+      learning happens. All the expectations in this section flow from
+      this principle. If you are wondering about 
     </p>
     <p>
-      That said, working in groups on assignments is excellent and
+      In addition to doing your own work, it is an essential
+      practice in academic work to give credit for what you have used
+      from other people. You are not expected to work alone: there are
+      many people, resources and tools that will help you complete
+      mathematic work. You should use your resources. But you should
+      give credit. If something is helpful to you, mention is, even if
+      you are not quoting it directly. This is a habit of mind, a
+      practice, a way of living in academic writing: we give credit
+      because we are a community working together to understand the
+      world. Because we can't do such a thing on our own but only with
+      help.
+    </p>
+    <p>
+      If you keep these two principle in mind, it's going to be very
+      easy to meet these expectations. When you hand in an
+      assignment, ask yourself: have I done my own work? have I given
+      credit for the help I've received? If you have done both, then
+      very likely you are already meeting my expectations. I'll
+      elaborate in the following sections and you should read them
+      carefully, but the are all details that try to show you how to
+      follow these two basic ideas. 
+    </p>
+  </section>
+  <section xml:id="section-working-with-people">
+    <title>Working With Peoples</title>
+    <p>
+      Working in groups of classmates on assignments is excellent and
       highly encouraged. Mathematics is well suited to groups, where
       you can remind each other of ideas, correct each other's
       mistakes, and help each through conceptual barriers. Groups are
@@ -53,18 +82,27 @@
       produce your own work at the end. 
     </p>
     <p>
-      I have produced a list that summarizes the specifics of my
-      assignment expectations for academic honesty. (This list repeats
-      some of the expectations in <xref
-      ref="chapter-how-to-write-an-assignment" />, but elaborates more
-      on the academic honesty pieces.)
+      Similarly, getting help from people outside of your class is
+      strongly encouraged. This includes friends, family members, and
+      hired or volunteer tutors. Mathematics can be challenging, so if
+      you have access to help from someone, then please take advantage
+      of that help. The same general rule from the previous paragraph
+      still applies: get help to understand the mathematics, but then
+      do you own work. Don't let anyone else actually write your
+      assignments for you -- that is cheating and is an academic
+      honesty violation. 
+    </p>
+    <p>
+      Here are some more notes about working with other people.
     </p>
     <ul>
       <li>
-        Obviously, you can't just copy another student's assignment.
-        That's cheating, regardless of whether you had permission to
-        copy. Given that you are reading this, I'm assuming
-        that you are, in fact, trying to do your work honestly. 
+        Obviously, you can't just copy another student's assignment or
+        have a family member, friend or tutor write the assignment for
+        you.  That's cheating, regardless of whether you had
+        permission to copy. When you hand in an assignment, you are
+        always implicitly saying that this work is your own work, that
+        you've done it yourself. 
       </li>
       <li>
         If you work with a group, you still need to write your own
@@ -88,165 +126,190 @@
         expected. (Identical assignments are still a problem, as
         discussed above). 
       </li>
-      <li>
-        It's fine if someone else (a friend, a family member, a tutor,
-        etc) helps you with an assignment. However, it is not
-        acceptable if they do the questions for you. They should help
-        you figure out how do to the problem, often by working through
-        the main concepts and similar examples problems, and then you
-        should do the problems on your own and write up your solutions
-        on your own.
-      </li>
-      <li>
-        If you used another book (article, etc.), you must cite that
-        book just as you would in an English course. You may use any
-        citation style.
-      </li>
-      <li>
-        I'll talk about the use of internet resources in the next
-        section, since that topic deserves its own section. 
-      </li>
     </ul>
   </section>
-  <section xml:id="section-internet-resources">
-    <title>Internet Resources</title>
+  <section xml:id="section-external-resources">
+    <title>External Teaching Resources</title>
     <p>
-      I know that many of you will do the majority of your mathematics
-      work with a browser open. That's fine, and the internet is full
-      of some amazing resources. But you have to be clear and careful
-      about how you use online resources. 
+      There are many mathematics resources out in the world. There are
+      books, of coures, but also explanatory YouTube videos, internet
+      fora with problem solving advice, podcasts, and others. Using
+      these resources to help can be really excellent. 
     </p>
     <ul>
       <li>
-        First and foremost, you have to cite what you use. Any
-        websites, videos, calculation tools that you use for an
-        assignment should be cited somewhere in your assignment. I
-        find this expectation is often surprising to many
-        students, but I'm serious. Internet resources are like any
-        resources, and for academic writing, we cite our resources. We
-        do this to give credit, since those who produced all these
-        websites are helping us do our work. 
+        The second main principle for this section is `give credit'.
+        This is what I expect for external resources. If something
+        from outside the course helps you, then please not it in your
+        assignment. Be specific: if a video helped you understand a
+        particular techinque that led to a solution of a particular
+        problem, then say so on your assignments. I'm not particular
+        about citation methods, but if you are citing online content,
+        do always include the URL as well as the title of the content. 
       </li>
       <li>
-        These citations should be specific as reasonable. Don't
-        vaguely say that you used Youtube or even Khan Academy; tell me
-        specifically which video you watched that helped you and give
-        me the URL. (When you submit a scanned PDF of written work,
-        you can use the online text field in Moodle to submit your
-        reference, if you wish, so that you don't have to copy our
-        complicated URLs in pen and paper.)
+        If you quote something directly, of course, you must cite
+        this. Using something for help without quoting it directly is
+        a gray area, but I would strongly encourage you to be in the
+        habit of citing these as well. 
       </li>
       <li>
-        Online calculation tools (Wolfram Alpha, Demos, Symbolab, and
-        many others) are great. Feel free to use them to do
-        calculations and to check your work. However, like all
-        resources, you need to give credit. For calculation tools like
-        these (and any other computer algebra systems), you can tell
-        me at the start of the assignment that you used a calculation
-        tool and then very briefly indicated the places that it was
-        used in the assignment. If you simply double checked your work
-        with any of these tools, just say so as part of your
-        citations. Even if you do use these tools for calculation or
-        checking, you still need to show enough work to make it clear
-        that you understand the processes. 
+        It's possible you may find, somewhere in the world,  a
+        solution to the exact problem that I have asked on an
+        assignment. What do you do now? Well, you can quote that
+        solution if you wish (with a citation of course). But the
+        first principle of assignments is that their purpose is to
+        help you actually understand the material. So, if you quote
+        a solution from somewhere else, you then need to describe why
+        that solution work and why you understand it. The point of an
+        assignment is not to have a correct solution, but to
+        demonstrate that you understand the solution and the process
+        by which it was constructed. Make sure you do that
+        demonstration. 
       </li>
       <li>
-        In the above discussion, I am talking about sources without
-        in-person interaction, such as online texts, encylopedias,
-        video explanations, and calculation tools. The
-        internet also has interactive sources: various places where
-        you can ask for math help and receive responses from actual
-        people to your specific questions. Some of these are free and
-        some are paid serivces. I want to be very clear
-        about my expectation for these kind of sites.
-        <blockquote>
-          It's fine to ask general questions on a math forum or help
-          site.  Some like <dq>I need help figuring out how to solve
-          systems of equations</dq> is very reasonable. If you want
-          specific examples to ask about, use the activities in the
-          course and ask people to help you understand the activities.
-          However, please DO NOT post any assignment questions or
-          take-home exam questions to any online math forum or help
-          site. I need to draw a clear line here, so that it is easy
-          for you to understand my expectations. Posting assignment
-          questions or exam questions online is not acceptable. 
-      </blockquote>
-      </li>
-      <li>
-        Often when students look online for material from the course,
-        they will find similar material which differs in notations,
-        definitions, or solution methods. Similarly, you may have
-        previous mathematical experience that uses slightly different
-        notations, definition or method. I have two important
-        instructions for these situations.
-        <blockquote>
-          If you know another way of doing a problem, you need to
-          explain to me, in the assignment, why your method works.
-          Anything that comes from outside the course needs context:
-          you can't just use another method and expect me to
-          understand what you are doing. You need to explain.
-
-          Even if you know a different notation, I insist that you
-          translate your knowledge and practice into the notation I
-          use in the course. You must submit your assignment following
-          the notational conventions I introduces in the videos and
-          the notes. 
-        </blockquote>
-      </li>
-      <li>
-        Two specific internet resources require their own specific
-        nows. First, Wikipedia is not an authoratative source for
-        quotationes. Wikipedia is an immensely useful source and a
-        great place to look for reminders and concepts. I frequently
-        use it informally to help remember various pieces of
-        mathematics. But you can't use it as an authority; you can't
-        claim that any definition, notation or method is correct
-        because you read it on Wikipedia. If you want to do this, look
-        for waht Wikipedia uses as souces and track those down, so
-        that you can find a reasonable citation. 
-      </li>
-      <li>
-        <p>
-        Last, but not least, I need to talk about predictive language
-        models: GPT and its friends on other platforms. Predictive
-        language models can be a pretty fantastic resource, and it is
-        certainly amazing what they can accomplish. I imagine that we
-        are only just starting to understand it implications. So, what
-        are the expectation for using it in mathematics courses? Well,
-        it depends on what you do with it.
-        </p>
-        <p>
-        You could ask a predictive language model to write your
-        assignment text for you. However, recall what I wrote
-        previously: when you submit work, I expect what you submit
-        your own work: your own thoughts, your own sentences.
-        Therefore, in my courses, you are not permitted to have a
-        predictive language model write your assignment text for you.
-        </p>
-        <p>
-        You could ask it to check your calculations for you; some
-        language models are pretty good at math calculations.
-        However, I discourage this usage as well. Above, I encouraged
-        you to use Wolfram Alpha, Symbolab, Desmos and other online
-        calculation tool. If you are going to use a computer for
-        calcuation,  I suggest these. Why not use GPT or another
-        language model? Well, because they are language models: they
-        are designed to mimic language. They don't, fundamentally,
-        have either the goal or the design for accuracy in answers.
-        They'll produce something that looks and sounds like
-        reasonable mathematics, but it might simply be totally wrong.
-        </p> 
-        <p>
-        Lastly, if you do use GPT or another language model in some
-        other way, you do have to cite it. King's has decided, as a
-        policy for all courses, that use of language model text
-        without citation does, in fact, constitute plagiarism. This is
-        a serious academic offence with serious reprocusions. Even if
-        you unsure about the two previous point and do end up trying
-        to use a language model, at the very least give your source. 
-        </p>
+        Finally, it is very important to know that mathematics is not
+        perfectly consistent in its terminology and notation. Your
+        external sources may use different terms and different
+        symbols. This complicated external resources, since to use
+        them you may need to learn new symbols and definitions, which
+        can be difficult in itself. Also, in my courses you are
+        required for use the notations and terminology that I set in
+        the course. Therefore, if you learn from another source, you
+        may have to translate from their symbols and terms back into
+        those used in the course. This is required: work submitted
+        using symbols and terms that different from the course will
+        not be accepted. 
       </li>
     </ul>
+  </section>
+  <section xml:id="section-computer-algebra-systems">
+    <title>Computer Algebra Systems</title>
+    <p>
+      Computer algebra systems are a valuable and important tool in
+      mathematics. This includes online tools like Desmos, Symbolal,
+      Wolfram Alpha and many others. It also include programs like
+      Mathematica, SageMath, R and again others.  There are several
+      excellent uses of these tools
+    </p>
+    <ul>
+      <li>
+        Using these tools to check your work is great. Often, you can
+        catch mistakes this way. However, do be aware that sometimes
+        there are multiple presentations of the same correct answer --
+        just because your answer differs does not always mean it is
+        incorrect. 
+      </li>
+      <li>
+        Using these tools to visualize mathematics, by drawing graphs
+        and other shapes, it also great. I strongly encourage you to
+        do this if it helps you understand problems.
+      </li>
+      <li>
+        Sometimes, in the specific rubrics, I will allow you to do
+        various steps of a question by computer. When  I do this, then
+        of course please use the appropriate computer algebra system
+        to do these steps. This can save you a lot of time and
+        trouble. 
+      </li>
+      <li>
+        Like all resources, you need to give credit. For computer
+        algebra system, you can simply me at the start of the
+        assignment that you used a calculation tool and then very
+        briefly indicated the places that it was used in the
+        assignment. If you simply double checked your work with any of
+        these tools, just say so as part of your citations. 
+      </li>
+      <li>
+        Finally, it is not acceptable to have a computer algebra
+        system do all the work for you. Some of these systems are
+        pretty good at producing solutions with all the steps and even
+        with annotations. Going back to the first principle: the point
+        of an assignment is to have you figure it out yourself, to
+        understand yourself. Having a computer solve the question and
+        just handing that in defeats the purpose of an assignment. You
+        still need to do you own work. Handing in a computer-generated
+        solution that you did not write is an academic honesty
+        violate. 
+      </li>
+    </ul>
+  </section>
+  <section xml:id="section-llms">
+    <title>Large Language Models</title>
+    <p>
+      LLMs are the algorithms that make generative AI work: ChatGPT,
+      DeepSeek, Gemini, parts of Alexa, Siri, Coplit, and many
+      others. LLMs are the text generators, the pieces that actually
+      take a prompts and produce the response text (or image, video,
+      music, etc). Obviously, LLMs have quickly become a part of how
+      many of us live and work. I have specific things to say about
+      them as a tool in mathematics. 
+    </p>
+    <p>
+      LLMs can imitate two things I've already talked about:
+      educational resources and computer algebra systems. If you ask
+      them, they will produce both explanation of mathematics and
+      answers to specific calculations. First, then, the same
+      general principles apply. Having an LLM do you work for you
+      defeats the purpose of an assignment. Just like it was for
+      other tools, this is an academic honesty offense. 
+    </p>
+    <p>
+      So what about using LLMs in place of other resources or
+      calculation tools, in the appropriate ways I've described
+      above? The answer to this depends on the course. 
+    </p>
+    <ul>
+      <li>
+        In courses where assignments are graded normally, the use of
+        LLMs are resources is prohibited. 
+      </li>
+      <li>
+        In courses where assignments are graded just on completion,
+        the use of LLMS is not prohibit but it is very strongly
+        discouraged. 
+      </li>
+    </ul>
+    <p>
+      Why this policy? It's because of the nature of how an LLM works.
+      And LLM is a statistical pattern matching machines. It produces
+      text that it things matches the patterns of all that has read in
+      its training. What it can do with these patterns is pretty
+      incredible, for sure. But it is all about patterns of what is in
+      the training data. It's not at all about what is true or correct
+      -- that's not what an LLM is designed to do. 
+    </p>
+    <p>
+      LLMs are pretty good these days at getting information right by
+      accident. If you ask first-year level mathematics quesitons,
+      you'll get correct information much of the time. But not always,
+      since generating things that are verifyable true is not was an
+      LLM is for. Therefore, they are unreliable. 
+    </p>
+    <p>
+      If you ask an LLM to explain a math concept, its explanation may
+      just be wrong. That's of no help to a student, particular since
+      you don't know when it is accurate. Therefore, for conceptual
+      questions, you should rely on known sources: text written by
+      reputable mathematicians, videos by the same, and so on. The
+      source is important. You need to know that this information was
+      generated by a person who knows the mathematics and intends to
+      share it with the world accurately. 
+    </p>
+    <p>
+      Similarly, if you ask an LLM to do a math calculations, it might
+      just do it wrong. I doesn't have a mathematical logic in it,
+      it's just predicting text. It will get many calcluations
+      correct, but far from all of them. Instead, you would ask a
+      computer algebra system, as discussed above. These are programed
+      with the logic of mathematics in them, and will consistently
+      generate correct calculations. 
+    </p>
+    <p>
+      This is my reasoning for either prohibiting or very strongly
+      disouraging LLMs. Please take this to hear and make use of other
+      resources. 
+    </p>
   </section>
   <section xml:id="section-exams">
     <title>Exams</title>
@@ -266,11 +329,11 @@
     </p>
     <p>
       All the discussion about online sources still apply to the
-      take-home tests. You are welcome to use static sources, such as
+      take-home tests. You are welcome to use sources, such as
       videos and online text (with citations, of course), to help you
       with the concepts and ideas of the course which relate to the
       test. It is not acceptable to post test questions anywhere
-      online.
+      online. Use of LLMs is prohibited. 
     </p>
   </section>
 </chapter>

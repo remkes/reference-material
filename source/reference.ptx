@@ -35,10 +35,10 @@
           (n-1) \cdot n 
         </mrow>
         <mrow>
-          (x+y)^n \amp = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k} 
+          \binom{n}{k} \amp = \frac{n!}{k!(n-k)!} 
         </mrow>
         <mrow>
-          \binom{n}{k} \amp = \frac{n!}{k!(n-k)!} 
+          (x+y)^n \amp = \sum_{k=0}^n \binom{n}{k} x^k y^{n-k} 
         </mrow>
         <mrow>
           (x-y)^n \amp = \sum_{k=0}^n (-1)^k \binom{n}{k} x^k y^{n-k}
@@ -747,7 +747,7 @@
   <section xml:id="section-reference-integrals">
     <title>Integrals</title>
     <subsection>
-      <title>Integration Rules</title>
+      <title>Definite Integration Rules</title>
       <md>
         <mrow>
           \int_a^b f(x) dx \amp = - \int_b^a f(x) dx 
@@ -778,8 +778,14 @@
         </mrow>
       </md>
       <p>
-        The last three of these rules state that the definite integral
-        is linear. The indefnite integral is also linear. 
+        The last three of these rules state are linearity for the
+        definite integral. 
+      </p>
+    </subsection>
+    <subsection>
+      <title>Indefinite Integration Rules</title>
+      <p>
+        The indefinite integral also satisfies linearity.
       </p>
       <md>
         <mrow>
@@ -1179,7 +1185,7 @@
         <mrow>
           \int \sum_{n=0}^\infty a_n x^n dx \amp = \sum_{n=0}^\infty
           \int a_n x^n dx = \sum_{n=0}^\infty \frac{a_n x^{n+1}}{n+1}
-          + C 
+          + c 
         </mrow>
         <mrow>
           \frac{d}{dx} \sum_{n=0}^\infty a_n x^n \amp =
