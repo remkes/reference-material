@@ -10,11 +10,11 @@
     </latex-image-preamble>
   </docinfo>
 
-  <book xml:id="book-calculus1">
-    <title>Reference Materials for Mathematics</title>
+  <book xml:id="book-multicalculus">
+    <title>Reference Materials</title>
 
     <frontmatter xml:id="frontmatter">
-      <titlepage>
+      <bibinfo>
         <author>
           <personname>Remkes Kooistra</personname>
           <department>Department of Mathematics</department>
@@ -23,18 +23,22 @@
         <date>
           <today />
         </date>
-      </titlepage>
-
-      <colophon>
-
         <copyright>
-          <year>2012<ndash />2023</year>
+          <year>2012<ndash />2026</year>
           <holder>Remkes Kooistra</holder>
           <shortlicense> 
             This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
           </shortlicense>
         </copyright>
-      </colophon>
+        
+        <titlepage>
+          <titlepage-items/>
+        </titlepage>
+        <colophon>
+          <colophon-items/>
+        </colophon>
+  
+      </bibinfo>
     </frontmatter>
     
     <xi:include href="./academic-honesty.ptx" />
@@ -42,15 +46,8 @@
     <xi:include href="./notations.ptx" />
     <xi:include href="./reference.ptx" />
     <xi:include href="./library-of-functions.ptx" />
-    
-    <backmatter xml:id="backmatter">
-      <title>Backmatter</title>
-
-      <colophon>
-        <p> This book was authored in <pretext />. </p>
-      </colophon>
-
-    </backmatter>
 
   </book>
 </pretext>
+
+    
