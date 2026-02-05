@@ -41,8 +41,6 @@
       </bibinfo>
     </frontmatter>
     
-    <xi:include href="./academic-honesty.ptx" />
-    <xi:include href="./how-to-write-an-assignment.ptx" />
     <xi:include href="./notations.ptx" />
     <xi:include href="./reference.ptx" />
     <xi:include href="./library-of-functions.ptx" />

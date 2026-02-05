@@ -48,6 +48,30 @@
     </row>
     <row>
       <cell>
+        <m>a \cong b</m>
+      </cell>
+      <cell>
+        <m>a</m> is approximately equal to <m>b</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>a \doteq b</m>
+      </cell>
+      <cell>
+        <m>a</m> is approximately equal to <m>b</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>a \defeq b</m>
+      </cell>
+      <cell>
+        <m>a</m> is equal to <m>b</m> by definition.
+      </cell>
+    </row>
+    <row>
+      <cell>
         <m>\emptyset</m>
       </cell>
       <cell>
@@ -153,6 +177,22 @@
     </row>
     <row>
       <cell>
+        <m>\pi</m>
+      </cell>
+      <cell>
+        An irrational number, approximately 3.14
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>e</m>
+      </cell>
+      <cell>
+        An irrational number, approximately 2.71
+      </cell>
+    </row>
+    <row>
+      <cell>
         <m>f: A \rightarrow B</m>
       </cell>
       <cell>
@@ -205,6 +245,59 @@
       </cell>
       <cell>
         The half-open interval <m>a \leq x \lt b \subset \RR</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\sum_{i=1}^k a_i</m>
+      </cell>
+      <cell>
+        The sum of the numbers <m>a_i</m> as the index foes from 1 to
+        <m>n</m>, 
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>C(A)</m>
+      </cell>
+      <cell>
+        The continuous functions <m>f: A \rightarrow \RR</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>C^1(A)</m>
+      </cell>
+      <cell>
+        The continuously differentiable functions <m>f: A \rightarrow
+        \RR</m>
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>C^k(A)</m>
+      </cell>
+      <cell>
+        The continuously <m>k</m>-times differentiable functions <m>f:
+        A \rightarrow \RR</m>. 
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>C^\infty(A)</m>
+      </cell>
+      <cell>
+        The infinitely differentiable functions <m>f:A \rightarrow
+        \RR</m>. 
+      </cell>
+    </row>
+    <row>
+      <cell>
+        <m>\infty</m>
+      </cell>
+      <cell>
+        Infninity. In calculus courses, this usually means `getting
+        larger and larger without bound.' 
       </cell>
     </row>
   </tabular>

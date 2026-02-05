@@ -28,6 +28,13 @@
       </md>
     </subsection>
     <subsection>
+      <title>Completing the Square</title>
+      <me>
+        x^2 + ax + b = \left( x + \frac{a}{2} \right)^2 + \left( b -
+        \frac{a^2}{4} \right) 
+      </me>
+    </subsection>
+    <subsection>
       <title>Binomial Theorem</title>
       <md>
         <mrow>
@@ -99,21 +106,32 @@
       </md>
     </subsection>
     <subsection>
-      <title>Quadratics</title>
+      <title>Polynomial Formulae</title>
       <p>
-      If 
+        If 
         <me>
           ax^2+bx+c
         </me>
-      is a general quadratic, then the roots are given by the
-      quadratic formula.
+        is a general quadratic, then the roots are given by the
+        quadratic formula.
         <me>
           x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
         </me>
-      The <em>discriminant</em> of the quadratic is the value
-      <m>b^2-4ac</m>. A quadratic is called <em>irreducible</em> if
-      the discriminant if negative. This means that the quadratic
-      has no roots in the real numbers.
+        The <em>discriminant</em> of the quadratic is the value
+        <m>b^2-4ac</m>. A quadratic is called <em>irreducible</em> if
+        the discriminant if negative. This means that the quadratic
+        has no roots in the real numbers.
+      </p>
+      <p>
+        Similar formlae exist for roots fo cubics and quartics.
+        However, the formulae involve complex numbers and are
+        sufficiently complicated that we don't usually want to work
+        with them. 
+      </p>
+      <p>
+        It is an amazing curiosity of mathematics that no formula by
+        radicals exists for the roots of polynomials of degree five or
+        higher. 
       </p>
     </subsection>
   </section>
@@ -541,6 +559,13 @@
       </md>
     </subsection>
   </section>
+  <section>
+    <title>Asymptotic Ranking</title>
+    <me>
+      c \lt \ln x \lt \ldots \lt \sqrt[3]{x} \lt \sqrt{x} \lt x \lt
+      x^2 \lt x^3 \lt \ldots \lt e^x
+    </me>
+  </section>
   <section xml:id="section-reference-derivatives">
     <title>Derivatives</title>
     <subsection>
@@ -711,6 +736,14 @@
       </md>
     </subsection>
   </section>
+  <section>
+    <title>L'Hôpital's Rule</title>
+    <me>
+      lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \lim_{x \rightarrow a}
+      \frac{f^\prime(x)}{g^\prime(x)} \hspace{1cm} \lim_{x \rightarrow
+      a} 
+    </me>
+  </section>
   <section xml:id="section-reference-sums">
     <title>Sums</title>
     <subsection>
@@ -746,6 +779,14 @@
   </section>
   <section xml:id="section-reference-integrals">
     <title>Integrals</title>
+    <subsection>
+      <title>Riemann Definition of the Integral</title>
+      <me>
+        \int_a^b f(x) dx = \lim_{n \rightarrow \infty} \sum_{k=1}^n
+        f(x_k^*) \left( \frac{b-a}{n} \right) \hspace{1cm} x_k^* \in
+        \text{ the $k$th subinterval}
+      </me>
+    </subsection>
     <subsection>
       <title>Definite Integration Rules</title>
       <md>
@@ -1167,8 +1208,8 @@
         converges for all <m>x \in \RR</m>.
       </p>
       <me>
-        R = \frac{1}{\lim_{n \rightarrow \infty} \left|
-        \frac{a_{n+1}}{a_n} \right| } = \frac{1}{\lim_{n \rightarrow
+        R = \lim_{n \rightarrow \infty} \left|
+        \frac{a_{n}}{a_n+1} \right| = \frac{1}{\lim_{n \rightarrow
         \infty} \sqrt[n]{|a_n|}} \text{ where } a_n =
         \frac{f^{(n)}(\alpha)}{n!}
       </me>
