@@ -29,10 +29,10 @@
     </subsection>
     <subsection>
       <title>Completing the Square</title>
-      <me>
+      <md>
         x^2 + ax + b = \left( x + \frac{a}{2} \right)^2 + \left( b -
         \frac{a^2}{4} \right) 
-      </me>
+      </md>
     </subsection>
     <subsection>
       <title>Binomial Theorem</title>
@@ -109,14 +109,14 @@
       <title>Polynomial Formulae</title>
       <p>
         If 
-        <me>
+        <md>
           ax^2+bx+c
-        </me>
+        </md>
         is a general quadratic, then the roots are given by the
         quadratic formula.
-        <me>
+        <md>
           x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-        </me>
+        </md>
         The <em>discriminant</em> of the quadratic is the value
         <m>b^2-4ac</m>. A quadratic is called <em>irreducible</em> if
         the discriminant if negative. This means that the quadratic
@@ -561,10 +561,10 @@
   </section>
   <section>
     <title>Asymptotic Ranking</title>
-    <me>
+    <md>
       c \lt \ln x \lt \ldots \lt \sqrt[3]{x} \lt \sqrt{x} \lt x \lt
       x^2 \lt x^3 \lt \ldots \lt e^x
-    </me>
+    </md>
   </section>
   <section xml:id="section-reference-derivatives">
     <title>Derivatives</title>
@@ -738,11 +738,11 @@
   </section>
   <section>
     <title>L'Hôpital's Rule</title>
-    <me>
+    <md>
       lim_{x \rightarrow a} \frac{f(x)}{g(x)} = \lim_{x \rightarrow a}
       \frac{f^\prime(x)}{g^\prime(x)} \hspace{1cm} \lim_{x \rightarrow
       a} 
-    </me>
+    </md>
   </section>
   <section xml:id="section-reference-sums">
     <title>Sums</title>
@@ -781,11 +781,11 @@
     <title>Integrals</title>
     <subsection>
       <title>Riemann Definition of the Integral</title>
-      <me>
+      <md>
         \int_a^b f(x) dx = \lim_{n \rightarrow \infty} \sum_{k=1}^n
         f(x_k^*) \left( \frac{b-a}{n} \right) \hspace{1cm} x_k^* \in
         \text{ the $k$th subinterval}
-      </me>
+      </md>
     </subsection>
     <subsection>
       <title>Definite Integration Rules</title>
@@ -1081,15 +1081,15 @@
       <p>
         Length of the graph of the function <m>f</m>.
       </p>
-      <me>
+      <md>
         L = \int_a^b \sqrt{1 + f^\prime(x)^2} dx 
-      </me>
+      </md>
       <p>
         Length of the curve <m>\gamma</m>.
       </p>
-      <me>
+      <md>
         Li = \int_a^b \sqrt{x^\prime(t)^21 + y^\prime(t)^2} dt 
-      </me>
+      </md>
     </subsection>
     <subsection>
       <title>Surface Area  Integrals</title>
@@ -1102,32 +1102,32 @@
         Surface area of surface formed by rotation the graph of
         <m>f</m> about the <m>x</m>-axis.
       </p>
-      <me>
+      <md>
         A = \int_a^b 2\pi f(x) \sqrt{1 + f^\prime(x)^2} dx 
-      </me>
+      </md>
       <p>
         Surface area of surface formed by rotation the curve
         <m>\gamma</m> about the <m>x</m>-axis.
       </p>
-      <me>
+      <md>
         A = \int_a^b 2\pi y(t) \sqrt{x^\prime(t)^2 + y^\prime(t)^2}
         dt
-      </me>
+      </md>
       <p>
         Surface area of surface formed by rotation the graph of
         <m>f</m> about the <m>y</m>-axis.
       </p>
-      <me>
+      <md>
         \int_{f^{-1}(a)}^{f^{-1}(b)} 2\pi f^{-1}(y) \sqrt{1 +
         (f^{-1})^\prime(y)^2} dy 
-      </me>
+      </md>
       <p>
         Surface area of surface formed by rotation the curve
         <m>\gamma</m> about the <m>y</m> -axis.
       </p>
-      <me>
+      <md>
         A = \int_a^b 2\pi x(t) \sqrt{x^\prime(t)^2 + y^\prime(t)^2} dt
-      </me>
+      </md>
     </subsection>
     <subsection>
       <title>Volume Integrals</title>
@@ -1140,30 +1140,30 @@
         Volume of surface formed by rotation the graph of <m>f</m>
         about the <m>x</m>-axis.
       </p>
-      <me>
+      <md>
         V = \int_a^b \pi f(x)^2 dx \\[1.5em]
-      </me>
+      </md>
       <p>
         Volume of surface formed by rotation the curve <m>\gamma</m>
         about the <m>x</m>-axis.
       </p>
-      <me>
+      <md>
         V = \int_a^b \pi y(t)^2 y^\prime(t) dt
-      </me>
+      </md>
       <p>
         Volume of surface formed by rotation the graph of <m>f</m>
         about the <m>y</m>-axis.
       </p>
-      <me>
+      <md>
         V = \int_{f^{-1}(a)}^{f^{-1}(b)} \pi f^{-1}(y)^2 dy 
-      </me>
+      </md>
       <p>
         Volume of surface formed by rotation the curve <m>\gamma</m> 
         about the <m>y</m>-axis.
       </p>
-      <me>
+      <md>
         V = \int_a^b \pi x(t)^2 x^\prime(t) dt 
-      </me>
+      </md>
     </subsection>
   </section>
   <section xml:id="section-reference-series">
@@ -1175,17 +1175,17 @@
         satisfies <m>|r| \lt 1</m>. We also know the value of the
         series. 
       </p>
-      <me>
+      <md>
         \sum_{k=0}^\infty r^k = \frac{1}{1-r} \text{ if }
         |r| \lt 1
-      </me>
+      </md>
       <p>
         The <m>\zeta</m> series converges if <m>p \gt 1</m>, though we
         do not have an easy expression for its value. 
       </p>
-      <me>
+      <md>
         \sum_{k=0}^\infty \frac{1}{k^p} \text{ converges if } p > 1
-      </me>
+      </md>
     </subsection>
     <subsection>
       <title>Taylor Series</title>
@@ -1195,10 +1195,10 @@
         <m>(\alpha - c, \alpha + c)</m>. Then <m>f</m>has a Taylor
         series centered at <m>\alpha</m>.
       </p>
-      <me>
+      <md>
         f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(\alpha)}{n!}
         (x-\alpha)^n
-      </me>
+      </md>
       <p>
         If all the <m>a_n \neq 0</m>, then the radius of convergence
         <m>R</m> is at least <m>c</m>, and is calculated by the
@@ -1207,12 +1207,12 @@
         convergence. If <m>R=\infty</m>, the Taylor series
         converges for all <m>x \in \RR</m>.
       </p>
-      <me>
+      <md>
         R = \lim_{n \rightarrow \infty} \left|
         \frac{a_{n}}{a_n+1} \right| = \frac{1}{\lim_{n \rightarrow
         \infty} \sqrt[n]{|a_n|}} \text{ where } a_n =
         \frac{f^{(n)}(\alpha)}{n!}
-      </me>
+      </md>
     </subsection>
     <subsection>
       <title>Calculus of Taylor Series</title>
@@ -1315,17 +1315,17 @@
         function of <m>s</m> with domain <m>(\alpha, \infty)</m>
         defined as:
       </p>
-      <me>
+      <md>
         \calL\{f(t)\}(s) = \int_0^\infty f(t) e^{-ts} dt
-      </me>.
+      </md>.
       <p>
         If <m>f</m> and <m>g</m> are two integrable function on <m>(0,
         \infty)</m>, then the convolution of <m>f</m> and <m>g</m> is
         a function on <m>(0, \infty)</m> defined as:
       </p>
-      <me>
+      <md>
         f \star g (t) = \int_{0}^t f(\tau) g(t - \tau) d\tau
-      </me>.
+      </md>.
     </subsection>
     <subsection>
       <title>Rules</title>
@@ -1434,34 +1434,34 @@
     <title><m>\epsilon</m>-<m>\delta</m> Definitions</title>
     <p>
       The limit statement 
-      <me>
+      <md>
         \lim_{x \rightarrow a} f(x) = L 
-      </me>
+      </md>
       means: <m>\forall \epsilon \gt 0</m>, <m>\exists \delta > 0</m> such
       that if <m>|x-a| \lt \delta</m> then <m>|f(x) - L| \lt
       \epsilon</m>. 
     </p>
     <p>
       The limit statement
-      <me>
+      <md>
         \lim_{x \rightarrow a} f(x) = \infty
-      </me>
+      </md>
       means: <m>\forall N \in \NN</m>, <m>\exists \delta \gt 0</m> 
       such that if <m>|x-a| \lt \delta</m> then <m>f(x) \gt N</m>. 
     </p>
     <p>
       The limit statement
-      <me>
+      <md>
         \lim_{x \rightarrow \infty} f(x) = L
-      </me>
+      </md>
       means <m>\forall \epsilon \gt 0</m>, <m>\exists N \in \NN</m>
       such that if <m>x \gt N</m> then <m>|f(x) - L| \lt \epsilon</m>. 
     </p>
     <p>
       The limit statement
-      <me>
+      <md>
         \lim_{x \rightarrow \infty} f(x) = \infty
-      </me>
+      </md>
       means: <m>\forall N \in \NN</m>, <m>\exists M \in \NN</m> 
       such that if <m>x \gt M</m> then <m>f(x) \gt N</m>. 
     </p>
@@ -1484,28 +1484,28 @@
         If <m>f</m> and <m>g</m> are continuous function such that
         <m>f(x) \geq g(x)</m> near <m>a</m> (that is, in some open
         interval containing <m>a</m>), then 
-        <me>
+        <md>
           \lim_{x \rightarrow a} f(x) \geq \lim_{x \rightarrow a} g(x) 
-        </me>.
+        </md>.
         Likewise, if <m>f</m> and <m>g</m> are continuous function
         such that <m>f(x) \leq g(x)</m> near <m>a</m> then 
-        <me>
+        <md>
           \lim_{x \rightarrow a} f(x) \leq \lim_{x \rightarrow a} g(x) 
-        </me>.
+        </md>.
       </li>
       <li>
         <em>(The Squeeze Theorem)</em> If <m>f</m> and <m>g</m> are
         continuous functions, <m>h</m> is any function such that
         <m>f(x) \leq h(x) \leq g(x)</m> near <m>a</m>, and 
-        <me>
+        <md>
           \lim_{x \rightarrow a} f(x) = \lim_{x \rightarrow a} g(x) 
-        </me>, 
+        </md>, 
         then the limit of <m>h(x)</m> at <m>x=a</m> exists and
         satisfies
-        <me>
+        <md>
           \lim_{x \rightarrow a} h(x) = \lim_{x \rightarrow a} f(x) =
           \lim_{x \rightarrow a} g(x) 
-        </me>.
+        </md>.
       </li>
       <li>
         <em>(Rolle's Theorem)</em> If <m>f</m> is continuous on
@@ -1517,9 +1517,9 @@
         <em>(Mean Value Theorem)</em> If <m>f</m> is continuous on
         <m>[a,b]</m> and differentiable on <m>(a,b)</m>, then
         <m>\exists c \in (a,b)</m> such that 
-        <me>
+        <md>
           f^\prime(c) = \frac{f(b) - f(a)}{b-a} 
-        </me>.
+        </md>.
       </li>
       <li>
         <em>(MVT Corollary)</em> If <m>f</m> is continuous on
@@ -1536,16 +1536,16 @@
       <li>
         <em>(Fundamental Theorem of Calculus I)</em> If <m>f</m> is
         continuous on <m>[a,b]</m>, then
-        <me>
+        <md>
           \frac{d}{dx} \int_a^x f(t) dt = f(x)
-        </me>.
+        </md>.
       </li>
       <li>
         <em>(Fundamental Theorem of Calculus II)</em> If <m>f</m> is
         continuous on <m>[a,b]</m>, then 
-        <me>
+        <md>
           \int_a^b f(x) dx = F(b) - F(a)
-        </me>
+        </md>
         where <m>F</m> is any antiderivative of <m>f</m> on
         <m>[a,b]</m>. 
       </li>
@@ -1559,9 +1559,9 @@
         differentiable at <m>c \in (a,b)</m>, then for some radius of
         convergence around <m>c</m>, <m>f</m> can be expressed as a
         power series around <m>c</m> in the following form:
-        <me>
+        <md>
           f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(c)}{n!} (x-c)^n
-        </me>.
+        </md>.
       </li>
     </ul>
   </section>
